@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.sosi{
+    height: 50px;
+    width: 50px;
+}
+.top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.desc{
+    font-size: 20px;
+    max-width: 70%;
+    margin: 0 auto
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.element{
+    background-color: violet;
+    height: 200px;
+    width: calc((100% - 75px) / 3);
+    color: white;
+    margin: 0 25px 25px 0;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1200px){
+    .element{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 992px){
+    .element{
+        width: 350px;
+        height: 250px;
+
+    }
+}
